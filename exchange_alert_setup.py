@@ -13,7 +13,7 @@ print("=== Exchange Security Alert Monitor - Credential Setup ===")
 print(f"Credentials will be stored in Windows Credential Manager under: {SERVICE_NAME}")
 print()
 
-username = input("Enter your Exchange username (e.g. XPANDCORP\\giri.dronam): ").strip()
+username = input("Enter your Exchange username (e.g. con\x): ").strip()
 password = getpass.getpass("Enter your Exchange password: ")
 
 keyring.set_password(SERVICE_NAME, "username", username)
