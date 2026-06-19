@@ -34,10 +34,10 @@ Create a file named `exchange_alert_config.json` in the root of the project (thi
 
 ```json
 {
-  "exchange_server": "messaging.xpandcorp.com",
-  "mailbox": "giri.dronam@xpandcorp.com",
-  "alert_to": "hostmaster@xpandcorp.com",
-  "smtp_server": "messaging.xpandcorp.com",
+  "exchange_server": "x",
+  "mailbox": "x",
+  "alert_to": "x",
+  "smtp_server": "x",
   "smtp_port": 587
 }
 ```
@@ -57,7 +57,7 @@ python exchange_alert_setup.py
 ```
 
 You will be prompted to enter:
-- **Exchange username** (e.g., `XPANDCORP\giri.dronam` or `giri.dronam@xpandcorp.com`)
+- **Exchange username** (e.g., `contoso\x`)
 - **Exchange password** (masked during typing)
 
 The credentials will be securely saved under the service name `ExchangeSecurityAlertMonitor`. You can view or delete these credentials via:
